@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv("mutect.snv.res", sep="\t", low_memory=False)
+data = pd.read_csv("venv/bin/Input/mutect.snv.res", sep="\t", low_memory=False)
 
 def vaf(sample):
     variant = []

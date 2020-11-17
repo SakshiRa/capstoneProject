@@ -1,9 +1,9 @@
 import pandas as pd
 
-data = pd.read_csv("mutect.snv.res.filtered.classified.founds.nopara.somatic", sep="\t", low_memory=False)
+data = pd.read_csv("venv/bin/Input/mutect.snv.res.filtered.classified.founds.nopara.somatic", sep="\t", low_memory=False)
 
 def input(sample):
-    
+
     vaf = []
     endsratio = []
     cmedian = []
